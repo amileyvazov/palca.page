@@ -1,0 +1,42 @@
+.header {
+  height: 100vh;
+  background-position: center;
+  background-image: linear-gradient(rgba(17, 4, 5, 0.507), rgba(11, 4, 5, 0.527)), url(https://preview.colorlib.com/theme/podca/images/hero_bg_1.jpg.webp);
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.nav a {
+  color: #fff;
+  font-size: 30px;
+  padding-right: 50px;
+}
+
+.head-text {
+  color: #fff;
+}
+.head-text h2 {
+  font-size: 70px;
+  font-weight: 300;
+  padding: 10px 180px;
+}
+.head-text h4 {
+  font-size: 10px;
+  color: rgba(128, 128, 128, 0.623);
+}
+.head-text .btn-head {
+  margin: 50px;
+}
+.head-text .btn-head a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid transparent;
+  background-color: #dc3545;
+  padding: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=head.css.map */

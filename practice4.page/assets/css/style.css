@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.foot-text h2 {
+  background-color: rgba(0, 0, 0, 0.7254901961);
+  font-size: 15px;
+  height: 100px;
+  padding: 50px;
+  color: rgba(0, 0, 0, 0.7254901961);
+}/*# sourceMappingURL=style.css.map */

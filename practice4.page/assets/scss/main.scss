@@ -1,0 +1,78 @@
+.player{
+    background-color: #000;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    .play1{
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        a{
+            color: #fff;
+            font-size: 30px;
+            
+        }
+        span{
+            font-size: 15px;
+           margin: 10px;
+        }
+    }
+    .play2{
+        .play{
+            width: 100%;
+            height: 100%;
+            background-color: #fffcfc98;
+            border-radius: 10px;
+        }
+   
+    }
+    .play3{
+        color: #fff;
+        a{
+          color: #fff;
+          font-size: 25px;
+          padding-left: 20px;
+        }
+        span{
+            align-items: center;
+            font-size: 15px;
+            padding: 10px;
+            padding-right: 30px;
+        }
+        .volume{
+           padding: 10px;
+            .volume-item{
+                width: 90%;
+                border-radius: 20px;
+                height: 100%;
+                
+                background-color: #fffcfc9f;
+            }
+
+        }
+    }
+}
+.icons{
+    
+    a{
+        color: #fff;
+    }
+}
+
+.text{
+    position: absolute;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.card:hover .text{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    background-color: rgba(255, 0, 55, 0.733);
+}
